@@ -1,9 +1,7 @@
-# aws-iot
-
 ## AWSIoTCore
 ## Python으로 aws-iot 진행하였습니다.
 
-### 준비과정
+### 준비과정 (AWSIoTCore 세팅방법)
 
 <h3>1. AWS IoT Core -> 온보딩 -> 시작하기
 <img width="1424" alt="1" src="https://user-images.githubusercontent.com/80387186/126945228-f180fb64-7b57-462f-b313-2f8ae235d8eb.png">
