@@ -28,11 +28,13 @@
 <img width="1422" alt="11" src="https://user-images.githubusercontent.com/80387186/126945262-c7190b9d-a0cc-45b0-bb28-db4607ad31be.png">
 <h3>12. 자격 증명 풀 이름을 정하고, 빨간 네모 박스에 체크하고 -> 풀 생성 클릭
 <img width="1430" alt="12" src="https://user-images.githubusercontent.com/80387186/126945264-2ebb1758-4c01-43a2-a1fa-7a6ce2cf867b.png">
-<h3>13. 편집 클릭 -> Resource 아래 "" 사이에 ENDPOINT를 입력한다.
+<h3>13. 편집 클릭 -> Resource 아래 "" 사이에 ARN을 입력한다.
 <img width="1424" alt="13" src="https://user-images.githubusercontent.com/80387186/126945265-96600b7d-7034-4c13-8292-ee617fc505f7.png">
-<h3>14. ENDPOINT == ARN 
-<h3> - AWS IoT -> 관리-> 사물 클릭 [ (+추가) thing까지만 복사 붙여넣기 한다.]
+<h3>14. - AWS IoT -> 관리-> 사물 클릭 [ (+추가) thing까지만 복사 붙여넣기 한다.]
 <img width="1422" alt="14" src="https://user-images.githubusercontent.com/80387186/126945268-a0b6326b-b8b7-4177-a5f1-71ec8cc1d88e.png">
+<h3> 15. ENDPOINT는 아래의 사진과 같이 iot core -> settings에 가면 확인할 수 있다.
+<img width="948" alt="스크린샷 2021-07-30 오후 12 32 01" src="https://user-images.githubusercontent.com/80387186/127596392-1b3bc86f-5c49-457b-aa98-01a44214598c.png">
+
 
 ## AWSIoTCore MQTT Test
 이제 awsiotcoreSubTest.py와 awsiotcorePubTest.py로 먼저 MQTT테스트를 진행한다.<br>
